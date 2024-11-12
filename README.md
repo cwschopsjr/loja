@@ -1,0 +1,1 @@
+"Uso da estrutura do blog para criar uma loja"
