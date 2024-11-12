@@ -4,6 +4,7 @@
 gunicorn-error-log
 __localcode
 /data/
+project/local_settings.py
 
 # Django #
 *.log
