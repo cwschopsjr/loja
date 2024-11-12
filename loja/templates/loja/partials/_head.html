@@ -6,4 +6,8 @@
 
 <link rel="stylesheet" href="{% static 'global/css/style.css' %}">
 
+{% if site_setup.favicon %}
+  <link rel="shortcut icon" href="{{ site_setup.favicon.url }}" type="image/png">
+{% endif %}
+
 <title>Loja</title>
