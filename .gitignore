@@ -6,6 +6,7 @@ __localcode
 /media
 /static/
 project/local_settings.py
+/loja/migrations
 
 # Django #
 *.log
