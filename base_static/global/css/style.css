@@ -158,6 +158,8 @@ input[type='search']::-webkit-search-results-decoration {
 
 img {
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 /* Blog */
