@@ -9,13 +9,19 @@
   
   <div class="blog-wrapper">
 
-    {% include 'loja/partials/_header.html' %}
+    {% if site_setup.show_header %}
+      {% include 'loja/partials/_header.html' %}
+    {% endif %}
 
     {% block content %}{% endblock content %}
 
-    {% include 'loja/partials/_pagination.html' %}
+    {% if site_setup.show_pagination %}
+      {% include 'loja/partials/_pagination.html' %}
+    {% endif %}
 
-    {% include 'loja/partials/_footer.html' %}
+    {% if site_setup.show_footer %}
+      {% include 'loja/partials/_footer.html' %}
+    {% endif %}
 
   </div>
 
