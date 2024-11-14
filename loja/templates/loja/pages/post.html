@@ -19,7 +19,7 @@
       </h2>
 
       <div class="post-meta pb-base">
-        <div class="post-meta-item">
+        {% comment %} <div class="post-meta-item">
           <a 
             class="post-meta-link" 
             href="{% url 'loja:created_by' post.created_by.pk  %}"
@@ -34,7 +34,7 @@
               {% endif %}
             </span>
           </a>
-        </div>
+        </div> {% endcomment %}
         <div class="post-meta-item">
           <span class="post-meta-link">
             <i class="fa-solid fa-calendar-days"></i>

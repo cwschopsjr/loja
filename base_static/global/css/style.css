@@ -434,6 +434,8 @@ html,
 }
 
 .card-cover {
+  width: 300px;
+  height: 450px;
   border-radius: var(--br-base) var(--br-base) 0 0;
   aspect-ratio: 16 / 9;
   object-position: center;

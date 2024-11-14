@@ -158,6 +158,6 @@ class Post(models.Model):
             cover_changed = current_cover_name != self.cover.name
 
         if cover_changed:
-            resize_image(self.cover, 900, True, 70)
+            resize_image(self.cover, 900, True, 80)
             
         return super_save
